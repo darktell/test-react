@@ -9,7 +9,7 @@ const PLATFORM_ICONS_STYLE =
 const StartSlide = () => {
   return (
     <div
-      className="pt-16 pb-10 md:h-[600px] xl:h-[800px] w-full bg-no-repeat bg-center bg-cover"
+      className="pt-16 pb-10 px-2 xl:px-0 md:h-[600px] xl:h-[800px] w-full bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: "url(/img/main-slide-bg.png)" }}
     >
       <img

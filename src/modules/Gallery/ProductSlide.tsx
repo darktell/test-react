@@ -25,7 +25,7 @@ const ProductSlide = ({ image, label }: Props) => {
 
         <div
           className={cn(
-            "absolute bg-primary/40  top-0 rounded-xl w-full h-full z-[10] opacity-0 transition duration-150",
+            "absolute bg-primary/40  top-0 rounded-lg w-full h-full z-[10] opacity-0 transition duration-150",
             {
               "opacity-100": isHovered,
             },

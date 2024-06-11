@@ -24,7 +24,7 @@ const SLIDES = [
 const GalleryBlock = () => {
   return (
     <div
-      className="pt-8 pb-10 sm:pt-14 sm:pb-[115px] text-center"
+      className="pt-8 pb-10 xl:pt-14 xl:pb-[115px] text-center"
       id="gallery-block"
     >
       <Constraint>

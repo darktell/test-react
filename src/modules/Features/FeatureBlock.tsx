@@ -27,7 +27,7 @@ const LIST_TO_MAP = [
 const FeatureBlock = () => {
   return (
     <div
-      className="bg-[#f9f9f9] pt-[60px] pb-[90px] shadow-md"
+      className="bg-[#f9f9f9] pt-8 pb-10 xl:pt-[60px] xl:pb-[90px] shadow-md"
       id="feature-block"
     >
       <Constraint className="flex flex-col items-center">
