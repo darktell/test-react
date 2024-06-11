@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header className="fixed z-[200] top-0 w-full">
-      <div className="flex md:hidden bg-black/50 justify-between items-center p-2">
+      <div className="flex md:hidden bg-black/60 justify-between items-center p-2">
         <BurgerButton isOpen={isMenuOpen} setIsOpen={setIsMenuOpen} />
         <img
           alt="logo"
@@ -28,7 +28,7 @@ const Header = () => {
         />
         <nav
           className={cn(
-            "w-[100vw] h-screen bg-black/50 top-[64px] left-0 -translate-x-full absolute transition duration-300 ease-in-out",
+            "w-[100vw] h-screen bg-black/60 top-[64px] left-0 -translate-x-full absolute transition duration-300 ease-in-out",
             {
               "translate-x-0": isMenuOpen,
             },
@@ -46,10 +46,10 @@ const Header = () => {
         </nav>
       </div>
 
-      <div className="hidden md:block bg-black/50">
+      <div className="hidden md:block bg-black/60">
         <Constraint className="md:flex justify-between items-center">
           <img alt="logo" src="img/logo.png" />
-          <nav className="space-x-8 flex">
+          <nav className="space-x-4 lg:space-x-8 flex">
             {NAV_LINKS.map(({ href, label }, index) => (
               <a
                 key={label + index}
