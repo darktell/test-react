@@ -45,7 +45,7 @@ const VideoBlock = () => {
         <iframe
           width="100%"
           src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
-          allow="fullscreen; clipboard-write; encrypted-media;"
+          allow="accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; picture-in-picture"
           className="xl:h-[50vh] xl:w-[50vw] h-[200px] sm:w-[70vw] sm:h-[400px]"
         ></iframe>
       </Modal>
