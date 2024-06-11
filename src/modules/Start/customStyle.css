@@ -1,0 +1,52 @@
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 16px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: rgba(28,79, 100, 0.45);
+    border-radius: 100%;
+    color: white;
+}
+
+@media screen and (max-width: 1201px) {
+    .swiper-button-prev, .swiper-button-next {
+       display: none;
+    }
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    background: #4BCAFF;
+    opacity: 100%;
+    color: black;
+}
+
+.swiper-button-next {
+    right: 80px;
+}
+
+.swiper-button-prev {
+    left: 80px;
+}
+
+.swiper-pagination-bullets {
+    bottom: -7px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 1px solid white;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    border-color: #4BCAFF;
+    background: #4BCAFF;
+    opacity: 1;
+}
